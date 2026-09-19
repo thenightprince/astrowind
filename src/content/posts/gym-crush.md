@@ -1,0 +1,16 @@
+---
+title: "Gym Crush"
+excerpt: "A one-line confession about tracking a crush's gains on social media."
+publishDate: 2019-05-02T04:11:54.000Z
+image: "./images/gym-crush.jpg"
+category: Poetry
+tags: ["Humor", "Short Verse"]
+---
+
+
+i want no existence  
+in a universe  
+where i cannot covertly  
+track the gains  
+of my gym crush  
+via social media

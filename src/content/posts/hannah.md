@@ -1,0 +1,29 @@
+---
+title: "Hannah"
+excerpt: "A quiet, entranced portrait of a woman defined by darkness and delirium."
+publishDate: 2020-06-20T04:12:00.000Z
+image: "./images/hannah.jpg"
+category: Poetry
+tags: ["Love", "Portrait"]
+---
+
+
+blueish grey eyes  
+set deeply upon  
+the pallid arch  
+of each cheek  
+
+framed by hair  
+the color of night  
+reflecting naught  
+of this moonset glow  
+
+delirium touched mind  
+and an equally dark heart  
+my soul is stirred by this  
+most debased amalgam  
+
+forgive me  
+my forsaken sensibility  
+for I could never be  
+more in love

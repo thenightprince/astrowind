@@ -1,22 +1,15 @@
 {
-	// Pure static site: Astro pre-renders every page at build time
-	// (output: 'static' in astro.config.ts), so this Worker only needs
-	// to serve the pre-built ./dist folder as static assets.
+	// Pure static site: Astro pre-renders every page at build time, so this
+	// Worker only needs to serve the pre-built ./dist folder as static assets.
 	//
-	// This file exists specifically so that `wrangler deploy` does NOT
-	// fall back to its automatic-configuration flow. Without it, a
-	// deploy with no wrangler config runs `astro add cloudflare`, which
-	// installs the @astrojs/cloudflare adapter and switches the build to
-	// on-demand (server) rendering. That adapter also auto-enables
-	// Cloudflare Images-based runtime resizing, generating /_image?...
-	// URLs for every image on the site -- but the Worker never actually
-	// has a real Images binding provisioned, so EVERY image 404s in
-	// production. Explicitly declaring a static "assets"-only Worker
-	// here avoids all of that: no adapter, no server rendering, no
-	// runtime image service, just the already-optimized files from the
-	// primary `astro build`.
+	// This file exists specifically so `wrangler deploy` doesn't fall back to
+	// its automatic-configuration flow (which, for Astro projects, installs
+	// the @astrojs/cloudflare adapter and switches to on-demand/server
+	// rendering -- unnecessary here, and the source of a broken-images bug
+	// on the previous AstroWind-based version of this site). Declaring a
+	// plain assets-only Worker up front avoids all of that.
 	"name": "astrowind",
-	"compatibility_date": "2026-09-06",
+	"compatibility_date": "2026-09-10",
 	"assets": {
 		"directory": "./dist",
 		"not_found_handling": "404-page"

@@ -1,0 +1,21 @@
+---
+title: "Love on the Nile"
+excerpt: "A name, finally spoken, becomes the whole poem -- desire distilled down to syllables."
+publishDate: 2019-05-02T04:11:03.000Z
+image: "./images/love-on-the-nile.jpg"
+category: Poetry
+tags: ["Love", "Desire"]
+---
+
+
+"Kiria-Suun-Amun..."
+
+Watching the delicate syllables depart from your lips,  
+I fell into rhythm with each tumbling curve.  
+Sweet ambrosia crashed against my yearning eardrums,  
+your tongue was a sway of treble and tremor  
+
+In desperation, I turned the hourglass of my memory  
+even as the last whisper escapes your sweet mouth  
+to live eternal the gift of your revelation  
+as at last you grant me the courtesy of your name
